@@ -1,5 +1,6 @@
+import {BsArrowRight} from 'react-icons/bs'
 import { Link } from "react-router-dom";
-import { BiArrowToRight} from "react-icons/bi";
+
 
 const ServiceCard = ({item, index}) => {
 
@@ -12,8 +13,8 @@ const ServiceCard = ({item, index}) => {
        </p>
 
     <div className="flex items-center justify-between mt-[30px]">
-    <Link to='/services' className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] flex items-center justify-center group hover: bg-primaryColor hover:border-none">
-                <BiArrowToRight className="group-hover:text-white w-6 h-5"/>
+    <Link to='/services' className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] flex items-center justify-center group hover:bg-primaryColor hover:border-none">
+                <BsArrowRight className="group-hover:text-white w-6 h-5"/>
                 </Link>
         <span className="w-[44px] h-[44px] flex items-center justify-center text-[18px] leading-[30px] font-[600]" style={{
             background: `${bgColor}`, 
