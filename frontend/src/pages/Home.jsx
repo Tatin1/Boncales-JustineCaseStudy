@@ -6,6 +6,7 @@ import icon01 from '../assets/images/icon01.png'
 import icon02 from '../assets/images/icon02.png'
 import icon03 from '../assets/images/icon03.png'
 import featureImg from '../assets/images/feature-img.png'
+import faqImg from '../assets/images/faq-Img.png'
 import videoIcon from '../assets/images/video-icon.png'
 import avatarIcon from '../assets/images/avatar-icon.png'
 import { Link } from "react-router-dom";
@@ -198,6 +199,17 @@ const Home = () => {
                 </div>
             </section>
             {/*=========== Our Great Doctors end ==========*/}
+
+            {/*============FAQ Section ================*/}
+            <section>
+                <div className="container">
+                    <div className="flex justify-between gap-[50px] lg:gap-0">
+                        <div className="w-1/2 hidden md:block"><img src={faqImg} alt=""/></div>
+                    </div>
+                </div>
+            </section>
+            {/*============FAQ Section end ================*/}
+
         </>
     );
 };
