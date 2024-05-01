@@ -6,7 +6,7 @@ import icon01 from '../assets/images/icon01.png'
 import icon02 from '../assets/images/icon02.png'
 import icon03 from '../assets/images/icon03.png'
 import featureImg from '../assets/images/feature-img.png'
-import faqImg from '../assets/images/faq-Img.png'
+import faqImg from '../assets/images/faq-img.png'
 import videoIcon from '../assets/images/video-icon.png'
 import avatarIcon from '../assets/images/avatar-icon.png'
 import { Link } from "react-router-dom";
@@ -14,6 +14,7 @@ import {BsArrowRight} from 'react-icons/bs'
 import About from "../components/About/About";
 import ServiceList from "../components/Services/ServiceList";
 import DoctorList from "./Doctors/DoctorList";
+import Faqlist from "../components/faq/Faqlist";
 const Home = () => {
     return (
         <>
@@ -205,7 +206,13 @@ const Home = () => {
                 <div className="container">
                     <div className="flex justify-between gap-[50px] lg:gap-0">
                         <div className="w-1/2 hidden md:block"><img src={faqImg} alt=""/></div>
+                        <div className="w-full md:w-1/2">
+                            <h2 className="heading">Most questions by our Patients</h2>
+
+                            <Faqlist/>
                     </div>
+                    </div>
+                    
                 </div>
             </section>
             {/*============FAQ Section end ================*/}
