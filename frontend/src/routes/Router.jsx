@@ -3,8 +3,8 @@ import Services from "../pages/Services"
 import Login from "../pages/Login"
 import Signup from "../pages/Signup"
 import Contact from "../pages/Contact"
-import DoctorList from "../pages/Doctors/DoctorList"
-import DoctorCard from "../pages/Doctors/DoctorCard"
+import DoctorList from "../components/Doctors/DoctorList"
+import DoctorCard from "../components/Doctors/DoctorCard"
 
 import { Routes, Route } from 'react-router-dom'
 

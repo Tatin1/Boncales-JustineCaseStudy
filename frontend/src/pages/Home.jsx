@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 import {BsArrowRight} from 'react-icons/bs'
 import About from "../components/About/About";
 import ServiceList from "../components/Services/ServiceList";
-import DoctorList from "./Doctors/DoctorList";
+import DoctorList from "../components/Doctors/DoctorList";
 import Faqlist from "../components/faq/Faqlist";
 // import Testimonial from "../components/Testimonial/Testimonial";
 const Home = () => {
