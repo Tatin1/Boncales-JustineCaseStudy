@@ -15,6 +15,7 @@ import About from "../components/About/About";
 import ServiceList from "../components/Services/ServiceList";
 import DoctorList from "./Doctors/DoctorList";
 import Faqlist from "../components/faq/Faqlist";
+// import Testimonial from "../components/Testimonial/Testimonial";
 const Home = () => {
     return (
         <>
@@ -201,7 +202,7 @@ const Home = () => {
             </section>
             {/*=========== Our Great Doctors end ==========*/}
 
-            {/*============FAQ Section ================*/}
+            {/*============ FAQ Section ================*/}
             <section>
                 <div className="container">
                     <div className="flex justify-between gap-[50px] lg:gap-0">
@@ -215,8 +216,19 @@ const Home = () => {
                     
                 </div>
             </section>
-            {/*============FAQ Section end ================*/}
+            {/*============ FAQ Section end ================*/}
 
+            {/* ============ Testimonial section ============*/}
+            {/* <section>
+                <div className="container">
+                    <div className="xl:w-[470px] mx-auto">
+                            <h2 className="heading text-center">What our patients say</h2>
+                            <p className="text_para text-center">World class care for everyone. Lorem ipsum.</p>
+                    </div>
+                    <Testimonial />
+                </div>
+            </section> */}
+            {/*============ Testimonial section end ============ */}
         </>
     );
 };
